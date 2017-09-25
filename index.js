@@ -32,3 +32,7 @@ function inc(n) {
 function dec(n) {
   return n -= n;
 }
+
+function preserveDecimal(n) {
+  return parseFloat(n);
+}
