@@ -26,7 +26,7 @@ function makeInt(n) {
 }
 
 function inc(n) {
-  return addn();
+  return n(n);
 }
 
 function dec(n) {
